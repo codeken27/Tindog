@@ -1,9 +1,23 @@
 $titlesection: #ff4c68;
-$montserrat: 'Montserrat',
+$montserrat: 'Montserrat-Black',
 sans-serif;
 $ubuntu:'Ubuntu',
 sans-serif;
 
 #title {
     background-color: $titlesection;
+
+    h1 {
+        font-family: $montserrat;
+        font-size: 3rem;
+        line-height: 1.5;
+        font-weight: 800;
+        color: white;
+    }
+}
+
+.container-fluid {
+
+    padding: 3% 15%;
+
 }
