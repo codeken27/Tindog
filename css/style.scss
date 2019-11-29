@@ -4,16 +4,42 @@ sans-serif;
 $ubuntu:'Ubuntu',
 sans-serif;
 
+
+body{
+    font-family: $montserrat;
+}
 #title {
     background-color: $titlesection;
-
+    color: white;
+    position: relative;
     h1 {
-        font-family: $montserrat;
+        
         font-size: 3rem;
         line-height: 1.5;
         font-weight: 800;
-        color: white;
+        
     }
+
+    img{
+        width: 60%;
+        transform: rotate(20deg);
+     
+
+    }
+
+    
+}
+
+.navbar-brand{
+    font-size: 2rem;
+}
+
+.navbar{
+    padding-bottom: 15%;
+}
+
+.nav-item{
+    padding-left: 8%;
 }
 
 .container-fluid {
